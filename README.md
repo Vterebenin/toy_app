@@ -35,3 +35,6 @@ POST   | /microposts        | create | page to list all microposts
 GET    | /microposts/1/edit | edit   | page to edit micropost with id 1
 PATCH  | /microposts/1      | update | update micropost with id 1
 DELETE | /microposts/1      | destroy| delete micropost with id 1
+
+##### relationship
+![screenshot of sample](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/figures/micropost_user_association.png)
