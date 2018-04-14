@@ -14,7 +14,7 @@ GET	/users/1/edit	edit	page to edit user with id 1
 PATCH	/users/1	update	update user with id 1
 DELETE	/users/1	destroy	delete user with id 1
 
-## files to work with code
+###### Users routes
 HTTP   | URL           | Action | Purpose 
 -------|---------------|--------|-------------
 GET    | /users	       | index  | page to list all users
@@ -24,3 +24,14 @@ POST   | /users	       | create | page to list all users
 GET    | /users/1/edit | edit   | page to edit user with id 1
 PATCH  | /users/1      | update	| update user with id 1
 DELETE | /users/1      | destroy| delete user with id 1
+
+###### microposts routes
+HTTP   | URL                | Action | Purpose 
+-------|--------------------|--------|-------------
+GET    | /microposts        | index  | page to list all microposts
+GET    | /microposts/1      | show   | page to show micropost with id 1
+GET    | /microposts/new    | new    | page to make a new micropost
+POST   | /microposts        | create | page to list all microposts
+GET    | /microposts/1/edit | edit   | page to edit micropost with id 1
+PATCH  | /microposts/1      | update | update micropost with id 1
+DELETE | /microposts/1      | destroy| delete micropost with id 1
