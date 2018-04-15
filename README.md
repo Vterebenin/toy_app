@@ -30,4 +30,8 @@ PATCH  | /microposts/1      | update | update micropost with id 1
 DELETE | /microposts/1      | destroy| delete micropost with id 1
 
 ##### relationship
-![screenshot of sample](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/figures/micropost_user_association.png)
+![relationship](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/figures/micropost_user_association.png)
+
+##### The inheritance hierarchy for the User and Micropost models.
+![The inheritance hierarchy for the User and Micropost models.](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/figures/demo_model_inheritance_4th_ed.png)
+
