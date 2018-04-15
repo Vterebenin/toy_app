@@ -1,24 +1,37 @@
-# README
+### In this toy_app i also choose to train my rewriting skill of README.md :shipit:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+###### model for users
+![screenshot of sample](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/figures/demo_user_model.png)
 
-Things you may want to cover:
+###### model for microposts
+![screenshot of sample](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/figures/demo_micropost_model.png)
 
-* Ruby version
 
-* System dependencies
+###### Users routes
+HTTP   | URL           | Action | Purpose 
+-------|---------------|--------|-------------
+GET    | /users	       | index  | page to list all users
+GET    | /users/1	     | show   | page to show user with id 1
+GET    | /users/new	   | new    | page to make a new user
+POST   | /users	       | create | page to list all users
+GET    | /users/1/edit | edit   | page to edit user with id 1
+PATCH  | /users/1      | update	| update user with id 1
+DELETE | /users/1      | destroy| delete user with id 1
 
-* Configuration
+###### microposts routes
+HTTP   | URL                | Action | Purpose 
+-------|--------------------|--------|-------------
+GET    | /microposts        | index  | page to list all microposts
+GET    | /microposts/1      | show   | page to show micropost with id 1
+GET    | /microposts/new    | new    | page to make a new micropost
+POST   | /microposts        | create | page to list all microposts
+GET    | /microposts/1/edit | edit   | page to edit micropost with id 1
+PATCH  | /microposts/1      | update | update micropost with id 1
+DELETE | /microposts/1      | destroy| delete micropost with id 1
 
-* Database creation
+##### relationship
+![relationship](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/figures/micropost_user_association.png)
 
-* Database initialization
+##### The inheritance hierarchy for the User and Micropost models.
+![The inheritance hierarchy for the User and Micropost models.](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/figures/demo_model_inheritance_4th_ed.png)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
